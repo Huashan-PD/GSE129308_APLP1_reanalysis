@@ -1,0 +1,13 @@
+data/raw/
+data/intermediate/
+data/processed/
+outputs/objects/
+logs/
+r_libs/
+*.rds
+*.h5
+*.tar
+*.gz
+*.fastq
+*.fastq.gz
+.DS_Store

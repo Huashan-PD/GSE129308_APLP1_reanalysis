@@ -1,0 +1,10 @@
+subtype,lineage,paired_donors,cells_AD_AT8neg,cells_AD_AT8pos,delta_fraction,pseudobulk_log2FC,fraction_p,fraction_FDR,expression_p,expression_FDR,direction,included_in_final_panel
+Ex2,excitatory,8,3610,3998,0.109326025,0.473824052,0.029973974,0.126945825,1.40E-06,8.37E-06,higher in AD-AT8+,TRUE
+Ex7,excitatory,8,12497,9558,0.081011769,0.234454725,0.042315275,0.126945825,8.79E-05,0.000175883,higher in AD-AT8+,TRUE
+Ex10,excitatory,8,4522,1887,0.049580606,0.144362854,0.183430619,0.366861238,0.026226669,0.039340003,higher in AD-AT8+,TRUE
+Ex1,excitatory,8,3151,5037,-0.011257318,-0.009583477,1,1,0.881460951,0.973743954,lower in AD-AT8+,FALSE
+Ex6,excitatory,,579,111,,,,,,,not tested,FALSE
+Ex11,excitatory,,586,22,,,,,,,not tested,FALSE
+In1,inhibitory,3,2940,195,0.224534664,0.792807848,0.422678074,0.507213689,4.88E-06,1.46E-05,higher in AD-AT8+,FALSE
+In3/4,inhibitory,,928,154,,,,,,,not tested,FALSE
+In5/6,inhibitory,6,4196,337,0.022212907,0.004533189,0.401678166,0.507213689,0.973743954,0.973743954,higher in AD-AT8+,FALSE
