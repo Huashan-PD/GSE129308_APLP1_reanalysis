@@ -69,3 +69,14 @@ fraction plot.
 The repository intentionally does not include GEO raw H5 matrices, FASTQ files,
 or large intermediate Seurat objects. The scripts download GEO supplementary
 matrices and regenerate derived outputs locally.
+
+## License
+
+- Source code in `scripts/` — MIT License (see `LICENSE`).
+- Derived tables, reports and figure files in `outputs/` — Creative Commons
+  Attribution 4.0 International, CC BY 4.0 (see `LICENSE-DATA`).
+
+The primary sequencing data are not redistributed here. They are GEO accession
+[GSE129308](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE129308)
+(Otero-Garcia et al., Neuron 2022) and remain subject to the terms under which
+their original authors deposited them.

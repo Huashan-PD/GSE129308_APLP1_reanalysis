@@ -1,0 +1,28 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Huashan-PD and the authors of GSE129308_APLP1_reanalysis
+
+This license applies to the derived data files, tables, reports and figure
+files distributed in this repository, specifically everything under:
+
+    outputs/
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, provide a link to the
+license, and indicate if changes were made.
+
+Full legal code:  https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution:
+
+    Derived tables and figures from the GSE129308 APLP1 single-soma
+    reanalysis (Huashan-PD/GSE129308_APLP1_reanalysis), CC BY 4.0.
+
+Note on upstream data: this repository does not redistribute the primary
+sequencing data. The underlying single-soma RNA-seq data are GEO accession
+GSE129308 (Otero-Garcia et al., Neuron 2022) and remain subject to the terms
+under which they were deposited by their original authors.
+
+The analysis source code in scripts/ is licensed separately under the MIT
+License; see LICENSE.
