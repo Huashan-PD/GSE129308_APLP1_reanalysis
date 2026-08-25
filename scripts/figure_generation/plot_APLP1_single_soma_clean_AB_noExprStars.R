@@ -223,8 +223,9 @@ run_main("plot_APLP1_single_soma_clean_AB_noExprStars", {
     ggplot2::scale_fill_manual(values = setNames(c("#efc8a6", "#e79b9b"), c(at8neg_label, at8pos_label)), guide = "none") +
     ggplot2::scale_y_continuous(
       labels = scales::percent_format(accuracy = 1),
-      limits = c(0.20, 0.92),
-      breaks = c(0.20, 0.40, 0.60, 0.80)
+      limits = c(0, 1),
+      breaks = seq(0, 1, by = 0.20),
+      expand = ggplot2::expansion(mult = c(0, 0))
     ) +
     ggplot2::labs(
       title = "B  Paired donor fractions",
@@ -335,8 +336,9 @@ run_main("plot_APLP1_single_soma_clean_AB_noExprStars", {
       ifelse(displayed_fraction_sig, "not applicable; at least one fraction_FDR < 0.05", "NO")
     )),
     paste0("   Displayed subtype fraction_FDR values: ", paste(fraction_fdr_stars$subtype, signif(fraction_fdr_stars$fraction_FDR, 3), sep = "=", collapse = ", ")),
-    paste0("9. Caption markdown generated: ", ifelse(file.exists(project_path("outputs/report/APLP1_single_soma_clean_AB_caption.md")), "YES", "NO")),
-    "10. Output files generated:",
+    "9. Panel B y-axis spans 0 to 1 and starts at zero: YES",
+    paste0("10. Caption markdown generated: ", ifelse(file.exists(project_path("outputs/report/APLP1_single_soma_clean_AB_caption.md")), "YES", "NO")),
+    "11. Output files generated:",
     paste0("   - ", output_paths),
     "",
     "Star logic implemented in script:",

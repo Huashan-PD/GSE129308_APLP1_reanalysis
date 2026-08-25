@@ -9,8 +9,9 @@
 7. Expr. FDR used for Panel B stars: NO
 8. If fraction_FDR >= 0.05 for all displayed subtypes, no stars shown: YES
    Displayed subtype fraction_FDR values: Ex2=0.127, Ex7=0.127, Ex10=0.367
-9. Caption markdown generated: YES
-10. Output files generated:
+9. Panel B y-axis spans 0 to 1 and starts at zero: YES
+10. Caption markdown generated: YES
+11. Output files generated:
    - /Users/ywb/Documents/aplp1/GSE129308_APLP1_reanalysis/outputs/figures/Fig_APLP1_single_soma_clean_AB_noExprStars.pdf
    - /Users/ywb/Documents/aplp1/GSE129308_APLP1_reanalysis/outputs/figures/Fig_APLP1_single_soma_clean_AB_noExprStars.png
    - /Users/ywb/Documents/aplp1/GSE129308_APLP1_reanalysis/outputs/figures/Fig_APLP1_single_soma_clean_AB_noExprStars.svg
